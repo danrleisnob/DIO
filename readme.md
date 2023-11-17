@@ -1,7 +1,7 @@
-# statesboteco
+# Portfólio Profissional
 
-Olá! Eu sou o Danrlei Souza criado desse cardápil para o bar e restaurante States Boteco uma referencia no bairro de pau amarelo, janga e regiões
-espero que gostem do conteudo e venham programar comigo <3 
+Olá! Eu sou o Danrlei Souza, Recife-PE, Desenvolvedor Front-end e Analista de Sustentação Helpdesk N3. 
+Espero que gostem do conteúdo e venham programar comigo <3 
 
 ## Conecte-se comigo
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/danrleisnob)
