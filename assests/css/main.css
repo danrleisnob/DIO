@@ -9,7 +9,7 @@
     --primary-border-color: #28292E;
     --secondary-border-color: #56575A;
 
-    --title-color: #9A9A9C;
+    --title-color: #F0F0F0;
     --text-color: #9A9A9C;
     --link-color: #9A9A9C;
     --icon-color: #C7C8C9;
@@ -66,12 +66,19 @@ h1 {
     font-weight: 200;
 }
 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 h1, h2, h3 {
     font-family: 'League Spartan', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     color: var(--title-color);
     font-weight: 200;
 }
+
 
 p {
     font-size: 1.25;
@@ -176,10 +183,12 @@ p {
     width: 100%;
     background: transparent;
     border-radius: 3.125rem;
+    border: none;
     padding: 0.875rem 1.5rem;
     transform: scale(1.05);
     transition: ease-in-out .3s;
     cursor: pointer;
+    color: var(--primary-color);
 }
 
 .btn:hover {
@@ -200,12 +209,14 @@ p {
     border: 1px solid var(--primary-color);
 }
 
+main, .projects {
+    padding: 2.5rem 1rem;
+}
 
 main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2.5rem 1rem;
 }
 
 .main__content1 {
@@ -247,7 +258,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 1.25rem;
-    padding: 6.25rem 1rem 2rem 1rem;
+    padding: 6.25rem 1rem 2rem;
     background: var(--secondary-bg-color);
     margin-top: -5.5rem;
 }
@@ -260,7 +271,6 @@ main {
 .skills__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     gap: .5rem;
 }
 
@@ -280,6 +290,80 @@ main {
     height: 2.4rem;
 }
 
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.card__cover {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card__description{
+    color: var(--title-color)
+}
+
+.card__title {
+    font-size: 1.5rem;
+}
+.card__buttons, .description__buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .card__buttons .btn {
+    padding: .65rem 1.25rem;
+  }
+  
+  .card__buttons .btn span {
+      font-size: 1rem;
+  }
+
+.card__body .skills__list {
+    gap: .75rem;
+}
+
+.card__body .skills__intem{
+    width: 4rem;
+    height: 4rem;
+}
+
+.card__body .skills__logo {
+    height: 2rem;
+}
+
+.projects .btn {
+    width: auto;
+    margin: auto;
+}
+
 footer {
     margin-bottom: 5rem;
 }
@@ -289,6 +373,8 @@ footer p {
     text-align: center;
     padding: 1rem;
 }
+
+/* Midia Maiores */
 
 @media (min-width: 768px) {
     .header {
@@ -314,7 +400,11 @@ footer p {
         font-size: 4rem;
     }
 
-    main {
+    h2 {
+        font-size: 3rem;
+    }
+
+    main, .projects {
         padding: 8rem 6rem 4rem 6rem;
     }
 
@@ -334,12 +424,30 @@ footer p {
     }
 }
 
+@media (min-width: 992px) {
+    .projects__card {
+        flex-direction: row;
+    }
+
+    .projects__card.card--reverse {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .card__cover{
+        width: 55%;
+    }
+}
+
+
 @media (min-width: 1200px){
 
     main{
         padding: 12rem 6rem 2rem;
     }
-
+    h2 {
+        font-size: 4rem;
+    }
     .main__content1 .btn {
         width: auto;
     }
@@ -365,6 +473,24 @@ footer p {
         height: 3rem;
     }
 
+    .projects__card {
+        flex-direction: row;
+    }
+
+    .card__cover {
+        width: 50%;
+    }
+    .card__title {
+        font-size: 3.5rem;
+    }
+
+    .card__description, .card__intem {
+        font-size: 1.25rem;
+    }
+    .card__buttons .btn,
+    .description__buttons .btn {
+      width: auto;
+    }
 }
 
 @media (min-width: 1400px){
@@ -375,7 +501,9 @@ footer p {
     p {
         font-size: 1.5rem;
     }
-
+    h2 {
+        font-size: 5rem;
+    }
     .header {
         padding: 1rem 15rem;
     }
