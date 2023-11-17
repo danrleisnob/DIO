@@ -21,7 +21,7 @@
     --primary-bg-color: #E9E9E9;
     --secondary-bg-color: #C7C8C9;
     --primary-border-color: #C7C8C9;
-    --secondary-border-color: #C7C8C9;
+    --secondary-border-color: #9A9A9C;
 
     --title-color: #0B080F;
     --text-color: #28292E;
@@ -29,9 +29,9 @@
     --icon-color: #56575A;
 }
 
-/* html[data-theme='light'] .brand__logo {
-    filter: invert(1)
-} */
+html[data-theme='light'] .skills__intem {
+    filter: invert(80%)
+}
 
 * {
     margin: 0;
@@ -383,6 +383,7 @@ footer p {
     main {
         padding: 12rem 15rem 2rem;
     }
+
     .skills {
         padding: 10rem 15rem 4rem;
     }
