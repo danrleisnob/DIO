@@ -27,4 +27,4 @@ espero que gostem do conteudo e venham programar comigo <3
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danrleisnob&theme=transparent&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=fff&hide_title=true&hide=stars)
 
 ## Minhas Contribuições
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=danrleisnob&repo=statesboteco&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=FFF)](https://github.com/octoeli/dio-lab-open-source)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=danrleisnob&repo=DIO&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=FFF)](https://github.com/octoeli/dio-lab-open-source)
