@@ -1,7 +1,7 @@
-# statesboteco
+# Portfólio Profissional
 
-Olá! Eu sou o Danrlei Souza criado desse cardápil para o bar e restaurante States Boteco uma referencia no bairro de pau amarelo, janga e regiões
-espero que gostem do conteudo e venham programar comigo <3 
+Olá! Eu sou o Danrlei Souza, Recife-PE, Desenvolvedor Front-end e Analista de Sustentação Helpdesk N3. 
+Espero que gostem do conteúdo e venham programar comigo <3 
 
 ## Conecte-se comigo
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/danrleisnob)
@@ -27,4 +27,4 @@ espero que gostem do conteudo e venham programar comigo <3
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danrleisnob&theme=transparent&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=fff&hide_title=true&hide=stars)
 
 ## Minhas Contribuições
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=danrleisnob&repo=statesboteco&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=FFF)](https://github.com/octoeli/dio-lab-open-source)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=danrleisnob&repo=DIO&bg_color=000&border_color=fff&show_icons=true&icon_color=fff&title_color=fff&text_color=FFF)](https://github.com/octoeli/dio-lab-open-source)
