@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +15,38 @@
 </head>
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#Projeto">
+                        <span class="menu__text">Projeto</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#Sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#Contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <div class="header__brand">
-                <img class="brand__logo" src="./assests/img/favicon_io/apple-touch-icon.png" alt="" srcset="Logo Danrlei">
+            <img class="brand__logo" src="./assests/img/favicon_io/apple-touch-icon.png" alt="" srcset="Logo Danrlei">
         </div>
-        <i id="togglethem" class="bi bi-sun"></i>
+        <div class="header_toggle">
+            <i id="toggletheme" class="bi bi-sun"></i>
+        </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -49,6 +75,55 @@
         </ul>
     </nav>
 
-    <h1>Danrlei Souza</h1>
+<main>
+    <div class="main__content1">
+    <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+    <p>Danrlei Souza, Recife-PE, Desenvolvedor Front-end e Analista de Sustentação Helpdesk N3</p>
+    <ul class="menu menu--social">
+        <li>
+            <a class="menu_link" href="https://github.com/danrleisnob">
+                <i class="menu__icon bi bi-github"></i>
+            </a>
+        </li>
+        <li>
+            <a class="menu_link" href="https://www.linkedin.com/in/danrlei-souza-4b9b10196/">
+                <i  class="menu__icon bi bi-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a class="menu_link" href="https://www.instagram.com/souzadanrlei/">
+                <i class="menu__icon bi bi-instagram"></i>
+            </a>
+        </li>
+    </ul>
+    <button class="btn btn--primary">
+        <span>Ver Projetos</span>
+        <i class="bi bi-arrow-down-right"></i>
+    </button>
+    </div>
+    <div class="main__content2"> <iframe width="560" height="315" src="https://www.youtube.com/embed/iNViZMg6UjA?si=m_7sZ8-qd_aSkzhr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>  
+</main>
+<section class="skills">
+    <h2>Conhecimentos nas príncipais tecnologias do mercado</h2>
+    <ul class="skills__list">
+        <li class="skills__intem">
+            <img class="skills__logo" src="./assests/icon/Bootstrap.svg" alt="Bootstrap">
+        </li>
+        <li class="skills__intem">
+            <img class="skills__logo" src="./assests/icon/Angular.svg" alt="Angular">
+        </li>
+        <li class="skills__intem">
+            <img class="skills__logo" src="./assests/icon/TypeScript.svg" alt="TypeScript">
+        </li>
+    </ul>
+</section>
+
+    <footer>
+        <p>
+           @ 2023. Todos os Direitos Reservado. Danrlei Souza. Desenvolvido por <a href="https://github.com/danrleisnob">EA</a>
+        </p>
+    </footer>
+    <!-- Javascript -->
+    <script src="./assests/js/scripts.js"></script>
 </body>
 </html>
